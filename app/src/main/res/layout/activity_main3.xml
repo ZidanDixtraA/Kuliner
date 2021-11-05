@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kopi Lelet"
+        android:textSize="24dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/kopi2" />
+
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="“Lelet itu berasal dari kebiasaan orang yang menggunakan ampas kopinya untuk dilumurkan di batang rokok. Tujuannya supaya rokok yang dihisap jadi lebih mantap [berat]. Kadang di Rembang kegiatan ini juga sering disebut mbolot,” ujar salah seorang penikmat Kopi Lelet sebelum melumurkan ke rokok, biasanya orang mencampurkan ampas kopi dengan susu kental maupun gula. Hal itu dilakukan agar kelekatan ampas kopi dengan media yang dilumurkan bertahan lebih lama.Ampas kopinya dituang ke tatakan, kemudian dicampur susu kental. Boleh juga dicampur sama gula dan parutan kelapa. Kemudian diaduk-aduk. Baru dileletkan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="last"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dumbeg"
+        android:textSize="25sp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="132dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/dumbeg2" />
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="276dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Dumbeg merupakan makanan khas Rembang yang biasa menjadi oleh-oleh saat berkunjung ke Rembang. Dumbeg terbuat dari tepung beras, santan, dan gula pasir/gula aren. Namun, banyak juga yang ditaburi nangka atau kelapa muda yang dipotong dadu sebagai variasi rasa. Sejarah makanan dumbeg ini dimulai pada abad 15 hingga 16 Pulau Jawa bagian pesisir utara menjadi salah satu sasaran wilayah dakwah para wali. Sebab, kawasan pantura sangat strategis sebagai pusat perdagangan, jalur diplomasi internasional melalui maritim.Konon sejarah makanan dumbeg menjadi salah satu camilan favorit para wali. Dumbeg kerapkali menjadi sajian atau suguhan untuk tamu yang datang ke rumah.
+Kurang lengkap rasanya apabila di momen-momen tradisi seperti ‘sedekah bumi’ tanpa kehadiran makanan yang legit ini. Sudah menjadi makanan yang wajib ada saat perayaan sedekah bumi atau sedekah laut." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="next"/>
+
+
+
+</LinearLayout>

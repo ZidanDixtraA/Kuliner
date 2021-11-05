@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lontong Tuyuhan"
+        android:textSize="24dp"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="205dp"
+        android:layout_height="192dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/lontong2" />
+
+    <TextView
+        android:layout_width="392dp"
+        android:layout_height="281dp"
+        android:layout_gravity="center"
+        android:text="Disebut lontong tuyuhan karena pembuat dan penjual makanan ini dari Desa Tuyuhan, Kecamatan Pancur.Ingin tahu rasanya, datang sendiri di pusatnya di tepi jalan desa beraspal jurusan Lasem-Pandan, tepatnya yang melintas di Desa Tuyuhan. Di situ banyak berjajar penjual makanan tersebut Nikmat. Itulah komentar yang sering diucapkan banyak orang usai jajan. Betapa tidak, pengunjung yang datang bisa makan sambil berekreasi. Sebab, para penjual sengaja membuka usahanya di tepi jalan yang jauh dari perkampungan penduduk dengan latar belakang pegunungan dan persawahan yang lebat tanaman padi.Para pendatang yang jajan benar-benar bisa merasakan lezatnya makanan tersebut sambil menikmati pemandangan alam dan semilirnya angin desa yang tak banyak tercemar polusi kendaraan.Dengan suasana alam seperti itu pengunjung merasa betah duduk di kursi panjang (dhingklik) yang disediakan." />
+
+
+
+
+</LinearLayout>
